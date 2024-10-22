@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<script>
+  function redireccionar() {
+    event.preventDefault(); 
+    window.location.href = "bienvenido.html"; 
+  }
+</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ingrese a nuestro sitio</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Haahaa tienda</h1>
+        <!-- action="bienvenido.html" -->
+        <form id="registration-form" onsubmit="redireccionar(event)">
+            <div>
+                <label for="Tazas"> Tazas:</label>
+                <div>
+                <label for="Tamaño"> Tamaño:</label>  <input type="Tamaño" id="Tamaño">
+                <label for="color"> color:</label><input type="Color" id="color" >
+            </div>
+            <div>
+                <label for="Platos"> Platos:</label>
+                <div>
+                <label for="Tamaño"> Tamaño:</label>  <input type="Tamaño" id="Tamaño">
+                <label for="color"> color:</label><input type="Color" id="color" >
+            </div>
+            <div>
+                <label for="Fuentes"> Fuentes:</label>
+                <div>
+                    <label for="Tamaño"> Tamaño:</label>  <input type="Tamaño" id="Tamaño">
+                    <label for="color"> color:</label><input type="Color" id="color" >
+            </div>
+            <div>
+                <label for="Jarras"> Jarras:</label>
+                <div>
+                    <label for="Tamaño"> Tamaño:</label>  <input type="Tamaño" id="Tamaño">
+                    <label for="color"> color:</label><input type="Color" id="color" >
+            </div>
+            <div>
+                <label for="Floreros"> Floreros:</label>
+                <div>
+                    <label for="Tamaño"> Tamaño:</label>  <input type="Tamaño" id="Tamaño">
+                    <label for="color"> color:</label><input type="Color" id="color" >
+            </div>
+            <div>
+                <label for="Esculturas"> Esculturas:</label>
+                <div>
+                    <label for="Tamaño"> Tamaño:</label>  <input type="Tamaño" id="Tamaño">
+                    <label for="color"> color:</label><input type="Color" id="color" >
+            </div>
+            <div>
+                <label for="Maceta">Ingrese contraseña:</label>
+                <div>
+                    <label for="Tamaño"> Tamaño:</label>  <input type="Tamaño" id="Tamaño">
+                    <label for="color"> color:</label><input type="Color" id="color" >
+            </div>
+            <button type="submit">Carrito</button>
+        </form>
+    </div>
+</body>
+</html>
